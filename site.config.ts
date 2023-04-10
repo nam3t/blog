@@ -2,7 +2,7 @@ import { siteConfig } from './lib/site-config'
 
 export default siteConfig({
   // the site's root Notion page (required)
-  rootNotionPageId: 'eec650316c8a4b9382b0940ad73eb82f',
+  rootNotionPageId: '9047e0d163fe40b2b9f17df9ad032747',
 
   // if you want to restrict pages to a single notion workspace (optional)
   // (this should be a Notion ID; see the docs for how to extract this)
@@ -14,7 +14,7 @@ export default siteConfig({
   author: 'nam3t',
 
   // open graph metadata (optional)
-  description: 'Cùng nhau Khám phá và Phát triển Web3',
+  description: 'Blockchain Gaming Blog',
 
   // social usernames (optional)
   twitter: 'Nam3T9x',
