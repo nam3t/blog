@@ -14,7 +14,7 @@ export default siteConfig({
   author: 'nam3t',
 
   // open graph metadata (optional)
-  description: 'Blockchain Gaming Blog',
+  description: 'nam3t.com',
 
   // social usernames (optional)
   twitter: 'Nam3T9x',
