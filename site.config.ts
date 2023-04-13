@@ -14,20 +14,19 @@ export default siteConfig({
   author: 'nam3t',
 
   // open graph metadata (optional)
-  description: 'nam3t.com',
+  description: 'Blog cá nhân của nam3t',
 
   // social usernames (optional)
   twitter: 'Nam3T9x',
   github: 'nam3t',
   // linkedin: 'fisch2',
-  // mastodon: '#', // optional mastodon profile URL, provides link verification
   // newsletter: '#', // optional newsletter URL
   youtube: 'namsanti', // optional youtube channel name or `channel/UCGbXXXXXXXXXXXXXXXXXXXXXX`
 
   // default notion icon and cover images for site-wide consistency (optional)
   // page-specific values will override these site-wide defaults
-  defaultPageIcon: null,
-  defaultPageCover: null,
+  defaultPageIcon: 'https://nam3t.com/page-icon.png',
+  defaultPageCover: 'https://nam3t.com/page-cover.jpg',
   defaultPageCoverPosition: 0.5,
 
   // whether or not to enable support for LQIP preview images (optional)
@@ -48,18 +47,21 @@ export default siteConfig({
   // }
   pageUrlOverrides: null,
 
+  // pageUrlAdditions: {
+  //   '/the-social-audio-revolution': 'c4deaf33cc924ad7a5b9f69c6ae04a01'
+  // },
+
   // whether to use the default notion navigation style or a custom one with links to
   // important pages
-  navigationStyle: 'default'
-  // navigationStyle: 'custom',
-  // navigationLinks: [
-  //   {
-  //     title: 'About',
-  //     pageId: 'f1199d37579b41cbabfc0b5174f4256a'
-  //   },
-  //   {
-  //     title: 'Contact',
-  //     pageId: '6a29ebcb935a4f0689fe661ab5f3b8d1'
-  //   }
-  // ]
+  navigationStyle: 'custom',
+  navigationLinks: [
+    {
+      title: 'About',
+      pageId: '76d637b6a3d24b41b6045fad0c4a8b1d'
+    },
+    {
+      title: 'Contact',
+      pageId: '89e246354f544caf9d6110a40a5fa09e'
+    }
+  ]
 })

@@ -29,9 +29,6 @@ export const PageHead: React.FC<
         content='width=device-width, initial-scale=1, shrink-to-fit=no'
       />
 
-      <meta name="theme-color" media="(prefers-color-scheme: light)" content="#fefffe" key="theme-color-light"/>
-      <meta name="theme-color" media="(prefers-color-scheme: dark)" content="#2d3439" key="theme-color-dark"/>
-
       <meta name='robots' content='index,follow' />
       <meta property='og:type' content='website' />
 
@@ -78,6 +75,7 @@ export const PageHead: React.FC<
         href={rssFeedUrl}
         title={site?.name}
       />
+      <meta name='follow.it-verification-code' content='c0A1rAARM3FC2XRfMAke' />
 
       <meta property='og:title' content={title} />
       <meta name='twitter:title' content={title} />
