@@ -1,10 +1,18 @@
-import * as React from 'react'
+import * as React from 'react';
+import { useEffect, useState } from 'react';
 
-import styles from './styles.module.css'
+import styles from './styles.module.css';
 
 export const TwitterShareButton: React.FC = () => {
-  const shareUrl = encodeURIComponent(window.location.href);
-  const text = encodeURIComponent('Hay nè! Đọc thử xem nhé: ');
+  const [shareUrl, setShareUrl] = useState('');
+  const [text, setText] = useState('');
+
+  useEffect(() => {
+    if (typeof window !== 'undefined') {
+      setShareUrl(encodeURIComponent(window.location.href));
+      setText(encodeURIComponent('Hay nè! Đọc thử xem nhá: '));
+    }
+  }, []);
 
   return (
     <a
