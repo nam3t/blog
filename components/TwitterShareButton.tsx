@@ -10,7 +10,7 @@ export const TwitterShareButton: React.FC = () => {
   useEffect(() => {
     if (typeof window !== 'undefined') {
       setShareUrl(encodeURIComponent(window.location.href));
-      setText(encodeURIComponent('Hay nè! Đọc thử xem nhá: '));
+      setText(encodeURIComponent('Nice one! Check this out: '));
     }
   }, []);
 
@@ -20,11 +20,11 @@ export const TwitterShareButton: React.FC = () => {
       target='_blank'
       rel='noopener noreferrer'
       className={styles.twitterShareButton}
-      aria-label='Chia sẻ trên Twitter'
+      aria-label='Share on X'
     >
       <img
         src='twitter.svg'
-        alt='Chia sẻ trên Twitter'
+        alt='Share on X'
         width='80'
         height='80'
         style={{
