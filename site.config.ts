@@ -14,10 +14,10 @@ export default siteConfig({
   author: 'nam3t',
 
   // open graph metadata (optional)
-  description: 'Blog cá nhân của nam3t',
+  description: 'nam3t&#39; blog',
 
   // social usernames (optional)
-  twitter: 'Nam3T9x',
+  twitter: '_nam3t',
   github: 'nam3t',
   // linkedin: 'fisch2',
   // newsletter: '#', // optional newsletter URL
